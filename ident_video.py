@@ -10,7 +10,7 @@ import numpy as np
 ##------------------MODELO ENTRENADO-----------------------##
 #Model Path
 M_path = r"/home/erwin19t/Documents/Tesis/Codes/YOLO/yolov5/"
-New_path = r"/home/erwin19t/Documents/Tesis/Codes/YOLO/video/V03.mp4"
+New_path = r"/home/erwin19t/Documents/Tesis/Codes/YOLO/Video/V03.mp4"
  #Weights_Path
 W_Path = r"/home/erwin19t/Documents/Tesis/Codes/YOLO/yolov5/runs/train/exp/weights/last.pt"
 model =  torch.hub.load(M_path, 'custom', source = 'local', path = W_Path, force_reload = True) ### The repo is stored locally
